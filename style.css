@@ -1,0 +1,87 @@
+/* Основные стили для фона и текста */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: #faf5ed;
+    color: #543626;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+}
+
+.container {
+    text-align: center;
+    width: 700px;
+    max-width: 700px;
+    padding: 0 50px;
+}
+
+.logo {
+    margin-top: -100px;
+}
+
+.logo img {
+    width: 120px;
+    height: auto;
+    margin-bottom: 20px;
+    border-radius: 50%
+}
+
+/* Стили для заголовков и подзаголовков */
+h1 {
+    font-size: 24px;
+    font-weight: bold;
+    margin: 0;
+}
+
+.subtext {
+    font-size: 16px;
+    color: #543626;
+    margin: 10px 0 50px;
+}
+
+/* Стили для кнопок */
+.buttons {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.button {
+    display: flex;
+    align-items: center;
+    position: relative;
+    height: 50px;
+    color: #fff;
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: bold;
+    background: #73503C;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+.button:hover {
+    background-color: #563626;
+}
+
+.button p {
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.icon {
+    width: 40px;
+    position: absolute;
+    left: 5px;
+}
+
+.wb_icon {
+    width: 30px;
+    position: absolute;
+    left: 10px;
+}
